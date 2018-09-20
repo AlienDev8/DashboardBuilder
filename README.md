@@ -1,6 +1,6 @@
 # Dashboard Builder
 
-Tool works to help to build components visually
+Tool works help to build components visually
 
 ### Installing
 
