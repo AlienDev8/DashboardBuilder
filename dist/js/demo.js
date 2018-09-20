@@ -78,7 +78,7 @@ $(function () {
      * @param String cls the layout class to toggle
      * @returns void
      */
-    function changeLayout(cls) {
+    function changeLayout(cls) {        
         $('body').toggleClass(cls)
         $layout.fixSidebar()
         if ($('body').hasClass('fixed') && cls == 'fixed') {
@@ -351,4 +351,5 @@ $(function () {
     setup()
 
     $('[data-toggle="tooltip"]').tooltip()
-})
+});
+
